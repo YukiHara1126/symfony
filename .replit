@@ -1,0 +1,10 @@
+compile = ["./.bin/replit-compile.sh"]
+run = ["./.bin/replit-run.sh"]
+hidden = ["README.md", ".bin", ".config", "app/.git"]
+
+[env]
+PATH="${PATH}:${HOME}/${REPL_SLUG}/.bin"
+COMPOSER_HOME="${HOME}/.composer"
+
+[nix]
+channel = "unstable"
